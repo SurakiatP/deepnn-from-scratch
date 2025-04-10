@@ -8,8 +8,10 @@ The neural network is built from scratch to classify images from the MNIST datas
 
 - **Input Layer:** 784 neurons (28x28 pixels flattened)
 - **Hidden Layers:**
+
   - Layer 1: 128 neurons, ReLU activation
   - Layer 2: 64 neurons, ReLU activation
+  
 - **Output Layer:** 10 neurons, Softmax activation
 - **Loss Function:** Categorical Cross-Entropy
 
