@@ -20,10 +20,15 @@ Forward propagation computes predictions \( Y^ \) by passing input \( X \) throu
 ### Layer-by-Layer Equations:
 
 **Hidden Layer 1:**
+
 ![alt text](images/image1.png)
+
 **Hidden Layer 2:**
+
 ![alt text](images/image2.png)
+
 **Output Layer:**
+
 ![alt text](images/image3.png)
 
 ### Matrix Dimensions:
