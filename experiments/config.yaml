@@ -1,0 +1,36 @@
+model:
+  input_size: 784
+  hidden_sizes:
+  - 128
+  - 64
+  output_size: 10
+  activation: relu
+  output_activation: softmax
+  layers:
+  - 784
+  - 128
+  - 64
+  - 10
+
+training:
+  epochs: 20
+  batch_size: 32
+  learning_rate: 0.001
+  optimizer: adam
+
+loss:
+  name: categorical_cross_entropy
+
+data:
+  dataset: mnist
+  normalize: true
+  shuffle: true
+  train_size: 0.8
+  one_hot_labels: true
+
+experiment:
+  seed: 42
+  save_model: true
+  save_path: saved_models/mnist_model.pkl
+  log_metrics: true
+  log_path: logs/training_log.csv
