@@ -1,4 +1,4 @@
-# Deep Neural Network from Scratch 🧠✨
+# Deep Neural Network from Scratch 
 
 ![alt text](nn_for_README.png)
 
@@ -6,7 +6,7 @@ A modular, beginner-friendly implementation of a **feedforward neural network** 
 
 ---
 
-## 🧰 Project Structure
+## Project Structure
 
 ```
 deepnn-from-scratch/
@@ -42,7 +42,7 @@ deepnn-from-scratch/
 
 ---
 
-## 🚀 Features
+## Features
 - Full **forward & backward propagation**
 - Layer stacking with custom config
 - Supports multiple **activation functions**
@@ -53,7 +53,7 @@ deepnn-from-scratch/
 
 ---
 
-## 🧪 How to Use
+## How to Use
 
 ### 1. Clone the repository
 ```bash
@@ -80,7 +80,7 @@ python test.py
 
 ---
 
-## 📊 Results
+## Results
 Trained on MNIST with the following configuration:
 - Hidden layers: `[128, 64]`
 - Activation: `ReLU`
@@ -91,19 +91,19 @@ Achieved validation accuracy > **97%** after 20 epochs 🎉
 
 ---
 
-## 📚 Documentation
+## Documentation
 - **Math Explanation**: [`docs/math_explanation.md`](docs/math_explanation.md)
 - **Neural Net Intuition**: [`docs/architecture/architecture.md`](docs/architecture/architecture.md)
 - **Jupyter Demo**: [`notebooks/demo_mnist.ipynb`](notebooks/demo_mnist.ipynb)
 
 ---
 
-## 🧠 Credits
+## Credits
 Inspired by biological neural networks, built with ❤️ and NumPy.
 
 ---
 
-## 🪄 Future Improvements
+## Future Improvements
 - Add model saving/loading in JSON
 - Add Dropout, BatchNorm
 - Support for more datasets (e.g. CIFAR-10)
@@ -111,7 +111,7 @@ Inspired by biological neural networks, built with ❤️ and NumPy.
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the MIT License.
 
 ---
